@@ -75,7 +75,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    background-image: url(../img/slider.jpg);
 }
 
 .header::after {
@@ -482,7 +482,7 @@
 
 /* Holiday */
 .holiday {
-    background-image: url(/assets/img/bridge-2.jpg);
+    background-image: url(../img/bridge-2.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 78px;
@@ -719,14 +719,14 @@
 }
 
 .discover__city {
-    background-image: url(/assets/img/city.jpg);
+    background-image: url(../img/city.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .discover__nature {
-    background-image: url(/assets/img/nature.jpg);
+    background-image: url(../img/nature.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -786,15 +786,15 @@
 }
 
 .package__item-img--uerope {
-    background-image: url(/assets/img/c-package-1-1024x640.jpg);
+    background-image: url(../img/c-package-1-1024x640.jpg);
 }
 
 .package__item-img--asia {
-    background-image: url(/assets/img/c-package-2-1024x640.jpg);
+    background-image: url(../img/c-package-2-1024x640.jpg);
 }
 
 .package__item-img--usa {
-    background-image: url(/assets/img/c-package-3-1024x640.jpg);
+    background-image: url(../img/c-package-3-1024x640.jpg);
 }
 
 .package__item-icon-link {
@@ -941,7 +941,7 @@
 
 /* FOOTER */
 .footer {
-    background-image: url(/assets/img/footer.jpg);
+    background-image: url(../img/footer.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
