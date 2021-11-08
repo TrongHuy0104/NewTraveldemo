@@ -1,0 +1,193 @@
+    /* Mobile và Tablet */
+@media (max-width: 1023px) {
+    
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header {
+        padding-bottom: 100px;
+    }
+    .c-header-overlay__close-1 {
+        display: block;
+    }
+    .inner--header {
+        display: block;
+    }
+    .c-header-search__inner {
+        padding: 0 10px;
+    }
+    .c-header__list {
+        display: block;
+    }
+    .c-header__item-logo {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 30px;
+    }
+    .c-header-search__heading {
+        font-size: 4.2rem;
+    }
+    .bar-box{
+        display: block;
+    }
+    .c-header-overlay__mobile-1 {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 350px;
+        max-width: 100%;
+        background-color: #000;
+        color: #fff;
+        overflow-y: auto;
+        transform: translateX(100%);
+        transition: transform linear 0.3s, opacity linear 0.4s;
+        z-index: 9999;
+    }
+    .c-header-overlay__close-1 {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 2.4rem;
+    }
+
+   .c-header__nav-input-1:checked ~ .c-header-overlay__mobile-1 {
+       transform: translateX(0%);
+       opacity: 1;
+   } 
+   .c-header-search-input {
+       width: 100%;
+   }
+   .c-header-search__item {
+        width: 100%;
+        margin: 5px 0;
+   }
+   .c-header-search__list {
+        display: flex;
+        width: 100%;
+   }
+   .c-header-search__txt {
+        line-height: 1.4;
+   }
+   .c-slider-holiday__inner {
+        padding: 50px 0px;
+   }
+   .list-day-info__wrap {
+       width: 100%;
+       margin: 34px 0;
+   }
+   .discover__inner {
+       display: block;
+   }
+   .discover-bg-1 {
+       width: 100%;
+   }
+   .discover-bg-2 {
+       width: 100%;
+   }
+   .tour-location__inner {
+       display: block;
+   }
+   .tour-location__item {
+       margin-bottom: 30px;
+   }
+   .app_form-travel-wrap {
+       display: block;
+   }
+   .form-travel__txtbox {
+       padding: 26px 0;
+   }
+   .form-travel__formbox-chat {
+       width: 70%;
+   }
+   .form-travel__formbox-sent {
+       width: 30%;
+       text-align: center;
+   }
+   .form-footer__list {
+       display: block;
+   }
+   .form-footer__list-wrap {
+       width: 100%;
+   }
+   .form-footer__list-wrap--1 {
+       display: block;
+   }
+   .footer {
+       display: block;
+       text-align: center;
+       line-height: 3;
+   }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0px;
+    }
+    .hide-on-tablet {
+        display: none;
+    }
+    .list-day__inner {
+        flex-direction: column;
+    }
+    .list-day-time__list {
+        left: 19%;
+    }
+    .introduce__list {
+        display: block;
+    }
+}
+/* Mobile */
+@media (max-width: 739px) {
+    :root {
+        --header-height: 54px;
+        --navbar-height: 0px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .c-slider-holiday__inner {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 31px 0px;
+    }
+    .list-day__inner {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .list-day-time__list {
+        left: 0;
+        display: block;
+        position: unset ;
+    }
+    .list-day-time__item {
+        width: 100%;
+    }
+    .list-day-time__img {
+        height: unset;
+    }
+    .list-day-time__item-inner {
+        margin-top: 1px;
+    }
+    .introduce__list {
+        display: block;
+        padding: 0 63px;
+    }
+    .tour-location__inner {
+        padding: 0 10px;
+    }
+    .app_form-travel-wrap {
+        padding: 0 10px;
+    }
+    .c-header-overlay__mobile-1 {
+        width: 100%;
+    }
+    .c-header__item-logo {
+        padding: 14px 18px;
+    }
+    .c-slider-holiday__texbox {
+        text-align: left;
+    }
+}

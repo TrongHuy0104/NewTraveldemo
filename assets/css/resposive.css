@@ -1,0 +1,273 @@
+@media (max-width: 75em) {
+    .icon-fixed {
+        display: none;
+    }
+    
+    .navbar {
+        height: 125px;
+        padding: 20px 15px;
+        justify-content: center;
+        background-color: var(--title-color);
+    }
+
+    .navbar__list {
+        display: none;
+    }
+
+    .special-place__info {
+        padding-right: 16px;
+        text-align: center;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .sidebar-mini-menu {
+        display: block;
+        
+    }
+
+    .sidebar__menu-input:checked ~ .sidebar-mini-menu {
+        transform: translateX(0);
+    }
+}
+
+
+/* Tablet + Mobile */
+@media (max-width: 63.9375em) {
+    
+
+    .navbar__menu-icon {
+        padding: 12px;
+    }
+
+    .slider__wrap {
+        width: 100%;
+    }
+
+    .slider__select {
+        width: 100%;
+    }
+
+    .slider__option-item {
+        width: 100%;
+    }   
+
+    .destination__tour:nth-child(2) {
+        margin-top: 24px;
+    }
+
+    .special-place {
+        margin-top: 55px;
+    }
+
+    .special-place__info {
+        text-align: left;
+    }
+
+    .special-place__picture {
+        padding-left: 0;
+        padding-top: 8%;
+    }
+    
+    .special-place__time {
+        left: 0;
+        right: 0;
+        transform: none;
+        width: 100%;
+    }
+
+    .special-place__info-btn {
+        padding: 12px 60px;
+    }
+
+    .light-bar {
+        top: 14%;
+    }
+
+    .travel-option {
+        margin-top: 80px;
+    }
+
+    .travel__item {
+        margin-top: 30px;
+    }
+
+    .travel__item-link {
+        padding: 15px 10px 10px 0;
+    }
+
+    .discover__button {
+        padding: 12px 100px;
+    }
+    
+    .package__item {
+        margin-top: 36px;
+    }
+
+    .package__item-content-input {
+        text-align: center;
+        margin-top: 36px;
+    }
+
+    .package__item-content-link {
+        height: 46px;
+        max-width: 80%;
+        width: 80%;
+    }
+
+    .footer {
+        padding-bottom: 40px;
+    }
+
+    .footer__heading {
+        padding-left: 0;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+
+    .footer__with-search-input {
+        width: 75%;
+    }
+
+    .footer__with-search-btn {
+        width: 20%;
+    }
+
+    .footer__copyright {
+        padding: 0;
+        text-align: center;
+    }
+
+    .footer__copyright span {
+        padding: 15px;
+        display: block;
+        line-height: 2rem;
+    }
+
+    .footer__copyright span:first {
+        padding-bottom: 0;
+    }
+
+    .footer__copyright-second-text {
+        text-align: center;
+    }
+}
+
+
+    
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .footer__summary {
+        padding: 0 12px;
+    }
+}
+
+/* Mobile */
+@media (max-width:  46.1875em) {
+    .grid-mobile {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .slider__wrap {
+        padding: 10px 8px;
+    }
+
+    .slider__heading {
+        line-height: 6rem;
+    }
+
+    .slider__desc {
+        line-height: 3rem;
+    }
+
+    .slider__select {
+        padding: 15px;
+    }
+
+    .holiday {
+        height: 370px;
+    }
+
+    .holiday__text {
+        padding: 3% 34% 3% 8%;
+    }
+
+    .holiday__input {
+        text-align: center;
+    }
+
+    .holiday__input-link {
+        margin-left: 0;
+    }
+
+    .special-place__info {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .special-place__picture-and-time {
+        margin-top: 30px;
+    }
+
+    .special-place__img {
+        height: 100%;
+    }
+
+    .special-place__time {
+        flex-direction: column;
+    }
+
+    .special-place__time-item {
+        width: 100%;
+        border-bottom: 1px solid var(--white-color);
+    }
+
+    .travel-option {
+        margin-top: 450px;
+    }
+
+    .package__item-price-and-character {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .package__item-price h2 {
+        margin-top: 20px;
+    }
+
+    .package__item-content-disc {
+        margin: 0;
+    }
+
+    .package__item-content-link {
+        height: 40px;
+    }
+
+    .package__item-price--old {
+        right: 3px;
+        padding-right: 4px;
+    }
+
+    .footer__with-search-input {
+        width: 100%;
+    }
+
+    .footer__with-search-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer__body-text {
+        padding: 0 24px 0 0;
+    }
+
+    .footer__summary-title {
+        margin: 20px 0 10px 0;
+    }
+}
